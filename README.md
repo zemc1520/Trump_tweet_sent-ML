@@ -1,2 +1,3 @@
-# Trump_tweet_sent-ML
-Scikit-learn and Vadar sentiment analysis
+# President Trump Sentiment Analysis
+<a href = "https://scikit-learn.org/stable/">Scikit-learn</a> and <a href = "https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664">Vadar</a> were the primary libraries used. 
+In this introductory project with machine learning, I wanted to teach a program to analyze and guess the sentiment of Trump's tweets. To start, the training set is comprised of President Trump’s words from his tweets. The collection is done through the  ‘bag of words’ method and then the slit string is replaced when the word is considered negative or positive. The testing data set was compiled with the same bag of words data, however, it was manipulated and converted into sentiment mood percentages with the help of Vader. Lastly, the learning methods include stochastic gradient descent (<a href = "https://scikit-learn.org/stable/modules/sgd.html">SDG</a>) Classification and <a href = "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">Random Forest Classification</a>.
